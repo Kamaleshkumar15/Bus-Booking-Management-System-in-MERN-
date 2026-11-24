@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: #f8fafc;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer utilities {
+  .premium-card {
+    @apply bg-white rounded-2xl border border-slate-200/80 shadow-[0_8px_30px_rgb(15,23,42,0.04)] hover:shadow-[0_14px_35px_rgb(15,23,42,0.08)] transition-all duration-300;
+  }
+
+  .glass-panel {
+    @apply bg-white/90 backdrop-blur-xl border border-white/60 shadow-[0_20px_50px_rgb(15,23,42,0.12)];
+  }
+}
