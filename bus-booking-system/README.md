@@ -22,7 +22,7 @@ All 13 collections are stored as individual JSON files with serialized per-colle
 ## Run Locally
 
 ```bash
-# Terminal 1 — Backend (auto-seeds server/database/*.json on startup)
+# Terminal 1 — Backend 
 cd server
 cp .env.example .env
 npm install
