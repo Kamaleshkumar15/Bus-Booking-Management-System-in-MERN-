@@ -1,10 +1,8 @@
-# Bus Booking & Management System (100% Local JSON Database Version)
+# Bus Booking & Management System 
 
-A complete, offline-ready Bus Booking & Management System built with **React, Vite, Tailwind CSS, Three.js / React Three Fiber, Node.js, Express.js, Socket.IO, PDFKit, and a multi-file Local JSON Database (`server/database/*.json`)** — zero external APIs or external database servers required.
 
 ---
 
-## Local JSON Database (`server/database/`)
 
 All 13 collections are stored as individual JSON files with serialized per-collection write queues and atomic `.tmp` renames:
 - `users.json`, `drivers.json`, `buses.json`, `routes.json`, `trips.json`, `seats.json`, `bookings.json`, `passengers.json`, `payments.json`, `refunds.json`, `coupons.json`, `notifications.json`, `audit_logs.json`
